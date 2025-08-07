@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Welcome Page Styles */
+.welcome-page {
+  text-align: center;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.welcome-page h1 {
+  font-size: 2.5rem;
+  font-family: 'Caprasimo', cursive;
+  margin-bottom: 1.5rem;
+  color: #6F4E37;
+}
+
+.welcome-page p {
+  font-size: 1.1rem;
+  font-family: 'Caprasimo', cursive;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.welcome-button {
+  background-color: #6F4E37;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s;
+}
+
+.welcome-button:hover {
+  background-color: #5a3c29;
+}
+
+/* Coffee Selection Form Styles */
+.selection-page {
+  text-align: center;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.selection-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #6F4E37;
+  font-family: 'Caprasimo', cursive;
+}
+
+.selection-page h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #6F4E37;
+  font-family: 'Caprasimo', cursive;
+}
+
+.coffee-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.recipe-button {
+  background-color: #6F4E37;
+  color: white;
+  border: none;
+  padding: 0.9rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: background-color 0.3s;
+}
+
+.recipe-button:hover {
+  background-color: #5a3c29;
+}
+
+/* Recipe Page Styles */
+.recipe-page {
+  text-align: center;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.recipe-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #6F4E37;
+  font-family: 'Caprasimo', cursive;
+}
+
+.selection-summary {
+  margin-bottom: 2rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.selection-summary h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #444;
+  font-family: 'Caprasimo', cursive;
+}
+
+.selected-options {
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.selected-options p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.divider {
+  height: 2px;
+  background-color: #ddd;
+  margin: 1.5rem 0;
+}
+
+.recipe-section {
+  text-align: left;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #6F4E37;
+  font-family: 'Caprasimo', cursive;
+}
+
+.recipe-details p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.instructions {
+  margin-left: 1.5rem;
+  padding-left: 1rem;
+}
+
+.instructions li {
+  margin-bottom: 0.5rem;
+}
+
+.timer-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.timer-section p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.timer-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.timer-buttons button {
+  background-color: #6F4E37;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex: 1;
+}
+
+.timer-buttons button:hover {
+  background-color: #5a3c29;
+}
+
+.timer-buttons button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem;
+  margin-bottom: 3rem;
+  font-family: 'Caprasimo', cursive;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.app-title {
+  font-size: 5rem;
+  color: #6F4E37;
+  margin: 3;
+  font-family: 'Caprasimo', cursive; /* ✅ Applied */
+}
+
+/* Error Message Styles */
+.error-message {
+  text-align: center;
+  padding: 2rem;
+  background: #ffeeee;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.error-message button {
+  background-color: #6F4E37;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}

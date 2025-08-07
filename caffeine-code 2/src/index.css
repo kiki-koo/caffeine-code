@@ -1,0 +1,88 @@
+
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #3e2c23;
+  text-align: center;
+}
+
+/* App container */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+/* Header section */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Logo styles */
+.logo {
+  width: 140px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Main app title */
+.app-title {
+  font-size: 2.5rem;
+  color: #3e2c23;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Welcome screen container */
+.welcome-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Welcome text block */
+.welcome-screen {
+  max-width: 600px;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.welcome-screen p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Start button */
+.start-button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #6f4e37;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #5b3f2e;
+}
+
+/* Error or prompt messages */
+.selection-prompt {
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #b00020;
+}
